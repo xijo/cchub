@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.alert-warning {
+  border-color: #fcaa0e;
+  border-bottom-color: #ee9d02;
+  background-color: #fece72;
+}
+.alert-positive {
+  border-color: #29a03b;
+  border-bottom-color: #248b34;
+  background-color: #5bd46d;
+}
