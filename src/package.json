@@ -1,0 +1,18 @@
+{
+  "name": "cchub",
+  "productName": "cchub",
+  "version": "0.1.0",
+  "description": "Show github build status in the menubar",
+  "main": "./main.prod.js",
+  "author": {
+    "name": "Johannes Opper",
+    "email": "xijo@pm.me",
+    "url": "https://github.com/xijo/cchub"
+  },
+  "scripts": {
+    "electron-rebuild": "node -r ../.erb/scripts/BabelRegister.js ../.erb/scripts/ElectronRebuild.js",
+    "postinstall": "yarn electron-rebuild"
+  },
+  "license": "WTFPL",
+  "dependencies": {}
+}
